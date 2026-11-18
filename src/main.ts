@@ -1,7 +1,7 @@
 import {desk} from "@shared/desk";
 import {wrap,label,type Frame} from "@shared/surface";
 let masks=[["00100","01110","11111","00100","00100"],["00010","00111","01111","00010","00010"]];
-desk({name:"Light Table",accent:"#B695F0",motion:{"motif":"shuttle","color":"#B695F0","shine":"#F8E8FF"},initial:()=>({x:0,y:0,axis:0,mode:0}),configure:(_,v)=>{
+desk({name:"Light Table",accent:"#B695F0",motion:{enabled:false},initial:()=>({x:0,y:0,axis:0,mode:0}),configure:(_,v)=>{
  for(const [i,k] of ["first","second"].entries()){const a=String(v[k]||"").split("/");if(a.length<=7&&a.every(row=>/^[01]{1,12}$/.test(row)))masks[i]=a;}},
  render:s=>{const art:Frame=[];let overlap=0;const grid:string[]=[];
  for(let y=0;y<8;y++){
