@@ -11,7 +11,7 @@
     "start"
   ],
   "frames": 54,
-  "distinct_frames": 20,
-  "exit": "App io.ncoooooper.lighttable exited: finished; heap peak 90.9 of 128 KiB",
-  "sha256": "e09c601871390829ca0faa2e8e5fc47c222f6d94f059724e6ae69d1a5a164ff7"
+  "distinct_frames": 21,
+  "exit": "App io.ncoooooper.lighttable exited: finished; heap peak 86.6 of 128 KiB",
+  "sha256": "3dc32084560c023720a6f9fdd36bf768c0bfc1e1a590917588d72045d55ff3e2"
 }
