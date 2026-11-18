@@ -4,6 +4,6 @@
   "name": "Light Table",
   "version": "0.1.0",
   "api_version": "27.12.0",
-  "description": "Light Table",
+  "description": "Align two small pixel-animation masks on the front screen using an onion-skin comparison.",
   "author": "ncoooooper"
 }

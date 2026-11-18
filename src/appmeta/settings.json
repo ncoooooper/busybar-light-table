@@ -1,0 +1,18 @@
+{
+  "format_version": 1,
+  "version": 1,
+  "fields": {
+    "first": {
+      "type": "string",
+      "label": "Reference binary mask",
+      "default": "00100/01110/11111/00100/00100",
+      "max_length": 100
+    },
+    "second": {
+      "type": "string",
+      "label": "Moving binary mask",
+      "default": "00010/00111/01111/00010/00010",
+      "max_length": 100
+    }
+  }
+}

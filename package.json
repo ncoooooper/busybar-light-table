@@ -2,7 +2,7 @@
   "name": "busybar-light-table",
   "private": true,
   "version": "0.1.0",
-  "description": "Light Table",
+  "description": "Align two small pixel-animation masks on the front screen using an onion-skin comparison.",
   "author": "ncoooooper",
   "type": "module",
   "scripts": {
