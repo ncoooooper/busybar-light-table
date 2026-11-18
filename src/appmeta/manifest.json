@@ -2,7 +2,7 @@
   "format_version": 1,
   "id": "io.ncoooooper.lighttable",
   "name": "Light Table",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "api_version": "27.12.0",
   "description": "Align two small pixel-animation masks on the front screen using an onion-skin comparison.",
   "author": "ncoooooper"

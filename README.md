@@ -4,6 +4,20 @@ Align two small pixel-animation masks on the front screen using an onion-skin co
 
 A one-pixel shift is easier to judge when the two silhouettes share a grid. Amber shows the reference, teal shows the moving mask, and pale pixels show where both occupy the same cell.
 
+## Screen transitions
+
+Switch between the registered frames and the individual silhouettes. Look for the same edges as the view changes.
+
+![Light Table front display. Switch between the registered frames and the individual silhouettes. Look for the same edges as the view changes.](media/guide/screen-transitions.gif)
+
+<details>
+
+<summary>Watch the rear display</summary>
+
+![Light Table rear display during the recorded controls](media/guide/screen-transitions-rear.gif)
+
+</details>
+
 ## Register two animation frames
 
 1. Enter the two masks in device settings as slash-separated rows of zeros and ones. A mask may have up to 12 columns and seven rows.
@@ -34,7 +48,7 @@ Open BUSY Bar Emulator. From this repository, run:
 
 Press **Back** to exit.
 
-The GIFs are excerpts from the emulator recording. Each front-display pixel is shown at 9× its original width and height. The end frames pause for reading.
+The GIFs are excerpts from the emulator recording. Each LED occupies a 16 × 16 cell with a black border. The end frames pause for reading.
 
 [Full recording](media/controls.mp4) · [Rear display](screenshots/back-1.png) · [Firmware test](EMULATOR-QA.md) · [MIT license](LICENSE)
 
