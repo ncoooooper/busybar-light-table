@@ -37,3 +37,10 @@ Press **Back** to exit.
 The GIFs are excerpts from the emulator recording. Each front-display pixel is shown at 9× its original width and height. The end frames pause for reading.
 
 [Full recording](media/controls.mp4) · [Rear display](screenshots/back-1.png) · [Firmware test](EMULATOR-QA.md) · [MIT license](LICENSE)
+
+## Device settings
+
+Open **Apps → Light Table → Setup**. Save the fields and reopen the app to use the new values.
+
+- **Reference binary mask** (`first`). Default: `00100/01110/11111/00100/00100`.
+- **Moving binary mask** (`second`). Default: `00010/00111/01111/00010/00010`.
